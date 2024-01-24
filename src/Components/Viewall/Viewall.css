@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.viw{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viwwrap{
+    width: 95%;
+    height: 90%;
+    background-color: antiquewhite;
+    
+}
+
+.viwcard{
+    width: 28%;
+    height: 90%;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.viwimg{
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.viwimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.viwtitle{
+    width: 100%;
+    height: 14%;
+    background-color: green;
+}
+
+.viwcontent{
+    width: 100%;
+    height: 40%;
+    background-color: chartreuse;
+}
+
+.viwicons{
+    width: 100%;
+    height: 7%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}

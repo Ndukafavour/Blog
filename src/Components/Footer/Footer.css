@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footwrap{
+    width: 95%;
+    height: 90%;
+    /* background-color: blue; */
+}
+
+.ft-top{
+    width: 100%;
+    height: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+}
+
+.timg{
+    width: 20%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.timg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.ft-side{
+    width: 60%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+li{
+    font-family:  "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 600;
+    Line-height: 20px;
+   color: rgb(13, 12, 34);
+}
+
+li:hover{
+    color: gray;
+}
+
+.fticons{
+    width: 20%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.fticons:hover{
+   color: gray
+}
+
+.ft-btt{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+}
+
+.btt-side{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bttwrap{
+    width: 90%;
+    height: 90%;
+    /* background-color: gold; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 30%; */
+}
+
+.tt{
+    cursor: pointer;
+}
+
+h3{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: rgb(110, 109, 122);
+}
+
+.btt-last{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    cursor: pointer;
+}
+

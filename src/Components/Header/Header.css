@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    background-color: #f4e9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headwrap{
+    width: 95%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 85%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 20px;
+}
+
+.dribble{
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.half{
+    width: 90%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+.half img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.middle{
+    width: 85%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+li{
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 600;
+    Line-height: 14px;
+    cursor: pointer;
+    color: black;
+}
+
+.right{
+    width: 30%;
+    height: 100%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightwrap{
+    width: 90%;
+    height: 85%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.log{
+    width: 95%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logwrap{
+    width: 80%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+}
+
+
+h4{
+    font-family:  "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 600;
+    Line-height: 28px;
+    cursor: pointer;
+    padding-left: 10px;  
+    /* border: 1px solid #d444c4;
+    border-radius: 20px; */
+}
+
+.btn{
+    width: 50%;
+    height: 55%;
+    background-color: #d444c4;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn:hover{
+    /* background-color: rgba(200, 197, 197, 0.835); */
+   /* color: white; */
+    background-color:#d444c3c4;
+}
+
+.center{
+    width: 100%;
+    height: 30%;
+    /* background-color: #f4e9fa; */
+    background-color: aqua;
+}
+

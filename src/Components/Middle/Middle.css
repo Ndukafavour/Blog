@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inner{
+    width: 100%;
+    height: 30vh;
+    background-color: #f4e9fa;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innwrap{
+    width: 95%;
+    height: 95%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(61, 61, 78);
+}
+
+p{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(61, 61, 78);
+}
